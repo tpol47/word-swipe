@@ -9,11 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!!")
+        GroupBox(label:
+            Label("End-User Agreement", systemImage: "building.columns")
+        ) {
+            ScrollView(.vertical, showsIndicators: true) {
+                Text("test")
+                    .font(.footnote)
+            }
+            .frame(height: 100)
+//            Toggle(isOn: true) {
+//                Text("I agree to the above terms")
+//            }
         }
         .padding()
     }
