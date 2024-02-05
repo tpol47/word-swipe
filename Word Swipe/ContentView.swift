@@ -7,7 +7,12 @@
 
 import SwiftUI
 
+class toggleVars: ObservableObject {
+    @Published var isToggled = true
+}
+
 struct ContentView: View {
+    @StateObject private var toggle = toggleVars()
     var body: some View {
         GroupBox(label:
             Label("End-User Agreement", systemImage: "building.columns")
@@ -17,9 +22,9 @@ struct ContentView: View {
                     .font(.footnote)
             }
             .frame(height: 100)
-//            Toggle(isOn: true) {
-//                Text("I agree to the above terms")
-//            }
+            Toggle(isOn: $toggle.isToggled) {
+                Text("I agree to the above terms")
+            }
         }
         .padding()
     }
