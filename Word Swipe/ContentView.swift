@@ -8,17 +8,20 @@
 import SwiftUI
 
 class toggleVars: ObservableObject {
-    @Published var isToggled = true
+    var isToggled = false
+    var words = ["hola", "como estás", "paragua"]
 }
 
 struct ContentView: View {
     @StateObject private var toggle = toggleVars()
     var body: some View {
+        var _ = print(toggle.words[2])
         GroupBox(label:
             Label("End-User Agreement", systemImage: "building.columns")
         ) {
             ScrollView(.vertical, showsIndicators: true) {
-                Text("test")
+                Text(toggle.words[Int.random(in: 0..<toggle.words.count)])
+                
                     .font(.footnote)
             }
             .frame(height: 100)
