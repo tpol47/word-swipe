@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26929B4ACF357D9A3D1FA276 /* Pods_Word_SwipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF1FD6E51CC96D86EEAE902 /* Pods_Word_SwipeTests.framework */; };
+		36139658F28E0EECE6BCF6D9 /* Pods_Word_Swipe_Word_SwipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF52A24FAB1E848ECE05513C /* Pods_Word_Swipe_Word_SwipeUITests.framework */; };
+		AA958F86975D7A55AC589C5F /* Pods_Word_Swipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D2666FCF357D5EE0844A98 /* Pods_Word_Swipe.framework */; };
 		B100C8752B6C154500B2D89B /* Word_SwipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100C8742B6C154500B2D89B /* Word_SwipeApp.swift */; };
 		B100C8772B6C154500B2D89B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100C8762B6C154500B2D89B /* ContentView.swift */; };
 		B100C8792B6C154600B2D89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100C8782B6C154600B2D89B /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		B100C8872B6C154600B2D89B /* Word_SwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100C8862B6C154600B2D89B /* Word_SwipeTests.swift */; };
 		B100C8912B6C154600B2D89B /* Word_SwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100C8902B6C154600B2D89B /* Word_SwipeUITests.swift */; };
 		B100C8932B6C154600B2D89B /* Word_SwipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100C8922B6C154600B2D89B /* Word_SwipeUITestsLaunchTests.swift */; };
+		B1328F3A2B76977300E89149 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1328F392B76977300E89149 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF1FD6E51CC96D86EEAE902 /* Pods_Word_SwipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Word_SwipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3992BAFA33FB86C5803013D5 /* Pods-Word Swipe-Word SwipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word Swipe-Word SwipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Word Swipe-Word SwipeUITests/Pods-Word Swipe-Word SwipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		795CD707DE24A5F93C9EF4BA /* Pods-Word SwipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word SwipeTests.release.xcconfig"; path = "Target Support Files/Pods-Word SwipeTests/Pods-Word SwipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B88E58DBDA211E7C65E3E48 /* Pods-Word SwipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word SwipeTests.debug.xcconfig"; path = "Target Support Files/Pods-Word SwipeTests/Pods-Word SwipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF52A24FAB1E848ECE05513C /* Pods_Word_Swipe_Word_SwipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Word_Swipe_Word_SwipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100C8712B6C154500B2D89B /* Word Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Swipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100C8742B6C154500B2D89B /* Word_SwipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_SwipeApp.swift; sourceTree = "<group>"; };
 		B100C8762B6C154500B2D89B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,11 @@
 		B100C88C2B6C154600B2D89B /* Word SwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word SwipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100C8902B6C154600B2D89B /* Word_SwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_SwipeUITests.swift; sourceTree = "<group>"; };
 		B100C8922B6C154600B2D89B /* Word_SwipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_SwipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1328F392B76977300E89149 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B7A8661A9C8A604FD0367160 /* Pods-Word Swipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word Swipe.release.xcconfig"; path = "Target Support Files/Pods-Word Swipe/Pods-Word Swipe.release.xcconfig"; sourceTree = "<group>"; };
+		C76D42F2804ECE9E741C01F8 /* Pods-Word Swipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word Swipe.debug.xcconfig"; path = "Target Support Files/Pods-Word Swipe/Pods-Word Swipe.debug.xcconfig"; sourceTree = "<group>"; };
+		DCEB17ADDE61CE40FE667D36 /* Pods-Word Swipe-Word SwipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word Swipe-Word SwipeUITests.release.xcconfig"; path = "Target Support Files/Pods-Word Swipe-Word SwipeUITests/Pods-Word Swipe-Word SwipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D2666FCF357D5EE0844A98 /* Pods_Word_Swipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Word_Swipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA958F86975D7A55AC589C5F /* Pods_Word_Swipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26929B4ACF357D9A3D1FA276 /* Pods_Word_SwipeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36139658F28E0EECE6BCF6D9 /* Pods_Word_Swipe_Word_SwipeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64B1C48CFEE4FCB563C70019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C76D42F2804ECE9E741C01F8 /* Pods-Word Swipe.debug.xcconfig */,
+				B7A8661A9C8A604FD0367160 /* Pods-Word Swipe.release.xcconfig */,
+				3992BAFA33FB86C5803013D5 /* Pods-Word Swipe-Word SwipeUITests.debug.xcconfig */,
+				DCEB17ADDE61CE40FE667D36 /* Pods-Word Swipe-Word SwipeUITests.release.xcconfig */,
+				8B88E58DBDA211E7C65E3E48 /* Pods-Word SwipeTests.debug.xcconfig */,
+				795CD707DE24A5F93C9EF4BA /* Pods-Word SwipeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B100C8682B6C154500B2D89B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +110,8 @@
 				B100C8852B6C154600B2D89B /* Word SwipeTests */,
 				B100C88F2B6C154600B2D89B /* Word SwipeUITests */,
 				B100C8722B6C154500B2D89B /* Products */,
+				64B1C48CFEE4FCB563C70019 /* Pods */,
+				C39112EA2EFF05E8D4BF2005 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +133,7 @@
 				B100C8782B6C154600B2D89B /* Assets.xcassets */,
 				B100C87A2B6C154600B2D89B /* Word_Swipe.entitlements */,
 				B100C87B2B6C154600B2D89B /* Preview Content */,
+				B1328F392B76977300E89149 /* CardView.swift */,
 			);
 			path = "Word Swipe";
 			sourceTree = "<group>";
@@ -129,6 +163,16 @@
 			path = "Word SwipeUITests";
 			sourceTree = "<group>";
 		};
+		C39112EA2EFF05E8D4BF2005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D2666FCF357D5EE0844A98 /* Pods_Word_Swipe.framework */,
+				AF52A24FAB1E848ECE05513C /* Pods_Word_Swipe_Word_SwipeUITests.framework */,
+				0AF1FD6E51CC96D86EEAE902 /* Pods_Word_SwipeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B100C8962B6C154600B2D89B /* Build configuration list for PBXNativeTarget "Word Swipe" */;
 			buildPhases = (
+				651EDD3C3FACB9B0ED11AA74 /* [CP] Check Pods Manifest.lock */,
 				B100C86D2B6C154500B2D89B /* Sources */,
 				B100C86E2B6C154500B2D89B /* Frameworks */,
 				B100C86F2B6C154500B2D89B /* Resources */,
+				0D8536F43C9739DAB0F7EF22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B100C8992B6C154600B2D89B /* Build configuration list for PBXNativeTarget "Word SwipeTests" */;
 			buildPhases = (
+				171B83216D540816717A3973 /* [CP] Check Pods Manifest.lock */,
 				B100C87E2B6C154600B2D89B /* Sources */,
 				B100C87F2B6C154600B2D89B /* Frameworks */,
 				B100C8802B6C154600B2D89B /* Resources */,
@@ -171,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B100C89C2B6C154600B2D89B /* Build configuration list for PBXNativeTarget "Word SwipeUITests" */;
 			buildPhases = (
+				5766D379346738169A9D7ED6 /* [CP] Check Pods Manifest.lock */,
 				B100C8882B6C154600B2D89B /* Sources */,
 				B100C8892B6C154600B2D89B /* Frameworks */,
 				B100C88A2B6C154600B2D89B /* Resources */,
+				3F7643539673FA4EF0D36164 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +303,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D8536F43C9739DAB0F7EF22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Swipe/Pods-Word Swipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Swipe/Pods-Word Swipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Word Swipe/Pods-Word Swipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		171B83216D540816717A3973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Word SwipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7643539673FA4EF0D36164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Swipe-Word SwipeUITests/Pods-Word Swipe-Word SwipeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Swipe-Word SwipeUITests/Pods-Word Swipe-Word SwipeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Word Swipe-Word SwipeUITests/Pods-Word Swipe-Word SwipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5766D379346738169A9D7ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Word Swipe-Word SwipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651EDD3C3FACB9B0ED11AA74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Word Swipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B100C86D2B6C154500B2D89B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B100C8772B6C154500B2D89B /* ContentView.swift in Sources */,
+				B1328F3A2B76977300E89149 /* CardView.swift in Sources */,
 				B100C8752B6C154500B2D89B /* Word_SwipeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +566,7 @@
 		};
 		B100C8972B6C154600B2D89B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76D42F2804ECE9E741C01F8 /* Pods-Word Swipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +603,7 @@
 		};
 		B100C8982B6C154600B2D89B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A8661A9C8A604FD0367160 /* Pods-Word Swipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -485,6 +640,7 @@
 		};
 		B100C89A2B6C154600B2D89B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B88E58DBDA211E7C65E3E48 /* Pods-Word SwipeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +663,7 @@
 		};
 		B100C89B2B6C154600B2D89B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795CD707DE24A5F93C9EF4BA /* Pods-Word SwipeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +686,7 @@
 		};
 		B100C89D2B6C154600B2D89B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3992BAFA33FB86C5803013D5 /* Pods-Word Swipe-Word SwipeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +708,7 @@
 		};
 		B100C89E2B6C154600B2D89B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEB17ADDE61CE40FE667D36 /* Pods-Word Swipe-Word SwipeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
